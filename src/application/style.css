@@ -1,0 +1,108 @@
+/* ================= ROOT ================= */
+.root {
+    -fx-background-color: #F1F8E9; /* lighter soft green */
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* ================= TOP BAR ================= */
+.top-bar {
+    -fx-background-color: #81C784; /* soft green */
+    -fx-padding: 12px 20px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 5, 0, 0, 2);
+}
+
+/* ================= CITY TITLE ================= */
+.city-title {
+    -fx-font-family: "Montserrat", sans-serif;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-fill: #1B5E20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 1, 1);
+}
+
+/* ================= COMBOBOX / TEXTFIELD ================= */
+.city-field, .combo-box {
+    -fx-font-size: 14px;
+    -fx-padding: 6px 8px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #66BB6A;
+    -fx-focus-color: #2E7D32;
+    -fx-faint-focus-color: rgba(46,125,50,0.2);
+}
+
+/* ================= REFRESH BUTTON ================= */
+.refresh-btn {
+    -fx-background-color: #66BB6A;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 6px 12px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 1, 1);
+}
+
+.refresh-btn:hover {
+    -fx-background-color: #388E3C; /* darker green on hover */
+}
+
+/* ================= CENTER TEMPERATURE ================= */
+.temperature {
+    -fx-font-size: 50px;
+    -fx-font-weight: extra-bold;
+    -fx-text-fill: #2E7D32;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 2, 0, 1, 1);
+}
+
+/* ================= WEATHER CONDITION ================= */
+.condition {
+    -fx-font-size: 20px;
+    -fx-text-fill: #1565C0;
+    -fx-font-weight: bold;
+}
+
+/* ================= TIPS ================= */
+.tip {
+    -fx-font-size: 16px;
+    -fx-font-style: italic;
+    -fx-text-fill: #FF6F00;
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+}
+
+/* ================= FORECAST BOX ================= */
+.forecast-box {
+    -fx-background-color: #C8E6C9; /* light green */
+    -fx-padding: 12px;
+    -fx-spacing: 15px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 3, 0, 0, 1);
+}
+
+.forecast-box-item {
+    -fx-padding: 10px 12px;
+    -fx-border-color: #81C784;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-background-color: #F1F8E9;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0, 0, 1);
+}
+
+.forecast-box-item:hover {
+    -fx-background-color: #A5D6A7;
+}
+
+/* ================= FORECAST DAY AND TEMP ================= */
+.forecast-day {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #1B5E20;
+}
+
+.forecast-temp {
+    -fx-font-size: 15px;
+    -fx-text-fill: #2E7D32;
+    -fx-font-weight: bold;
+}
